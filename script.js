@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       selectedNumber.textContent = "No." + row.cells[0].textContent;
       selectedGrade.textContent = "学年: " + row.cells[1].textContent;
-      selectedTitle.textContent = "曲名: " + row.cells[2].textContent;
+      selectedTitle.textContent = row.cells[2].textContent;
     }
   
 
